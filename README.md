@@ -13,7 +13,7 @@ DEGREES(ACOS(LEAST(1.0, COS(RADIANS(_A_LAT))
 * COS(RADIANS(_B_LAT))
 * COS(RADIANS(_A_LON - _B_LON))
 + SIN(RADIANS(_A_LAT))
-* SIN(RADIANS(_B_LAT)))))) * 1000, -- Remover esta multiplicación `* 1000` para obtener el resultado en Kilometros o bien cambiarla por el tipo de conversion deseada
+* SIN(RADIANS(_B_LAT)))))) * 1000, -- Remover esta multiplicación `* 1000` para obtener el resultado en Kilometros o bien cambiarla por el tipo de conversión deseada
 2); -- Cambiar a la cantidad de decimales a mostrar
 END$$
 DELIMITER ;
