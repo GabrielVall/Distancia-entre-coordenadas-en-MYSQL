@@ -32,3 +32,5 @@ Distancia en metros |
 1278.18 |
 920.62 |
 420.12 |
+> Importante, la distancia obtenida es en base a distancia en linea recta(punto a punto) para calcular una distancia basado en el recorrido se recomienda usar la 
+[API de Google Maps](https://developers.google.com/maps?hl=es-419)
